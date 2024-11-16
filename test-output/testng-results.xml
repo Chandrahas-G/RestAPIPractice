@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-16T00:15:09 IST" name="Default suite" finished-at="2024-11-16T00:15:16 IST" duration-ms="7885">
+    <groups>
+    </groups>
+    <test started-at="2024-11-16T00:15:09 IST" name="Default test" finished-at="2024-11-16T00:15:16 IST" duration-ms="7885">
+      <class name="RahulShetty.JiraAPI">
+        <test-method signature="createBug()[pri:0, instance:RahulShetty.JiraAPI@1aa7ecca]" started-at="2024-11-16T00:15:09 IST" name="createBug" finished-at="2024-11-16T00:15:14 IST" duration-ms="5533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBug -->
+        <test-method signature="attachScreenshot()[pri:0, instance:RahulShetty.JiraAPI@1aa7ecca]" started-at="2024-11-16T00:15:14 IST" name="attachScreenshot" finished-at="2024-11-16T00:15:16 IST" depends-on-methods="RahulShetty.JiraAPI.createBug" duration-ms="2168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- RahulShetty.JiraAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
